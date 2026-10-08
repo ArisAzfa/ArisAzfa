@@ -118,7 +118,7 @@ text-anchor="middle"
 fill="#46535e"
 font-family="monospace"
 font-size="15">
-root@aris:~$ whoami
+root@yessir:~$ whoami
 </text>
 
 <text x="768" y="595"
@@ -126,7 +126,7 @@ text-anchor="middle"
 fill="#667580"
 font-family="monospace"
 font-size="15">
-aris - cybersecurity - technology
+aris - COCONUTComputerClub - technology
 </text>
 
 </svg>
