@@ -1,65 +1,132 @@
-<svg width="1536" height="512" viewBox="0 0 1536 512" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="650" viewBox="0 0 1536 650">
 
-  <rect width="1536" height="512" fill="#080b0f"/>
+<rect width="1536" height="650" fill="#080b0f"/>
 
-  <!-- subtle grid -->
-  <g stroke="#182028" stroke-width="1" opacity="0.5">
-    <path d="M0 64H1536"/>
-    <path d="M0 128H1536"/>
-    <path d="M0 192H1536"/>
-    <path d="M0 256H1536"/>
-    <path d="M0 320H1536"/>
-    <path d="M0 384H1536"/>
-    <path d="M0 448H1536"/>
-    <path d="M128 0V512"/>
-    <path d="M256 0V512"/>
-    <path d="M384 0V512"/>
-    <path d="M512 0V512"/>
-    <path d="M640 0V512"/>
-    <path d="M768 0V512"/>
-    <path d="M896 0V512"/>
-    <path d="M1024 0V512"/>
-    <path d="M1152 0V512"/>
-    <path d="M1280 0V512"/>
-    <path d="M1408 0V512"/>
-  </g>
+<!-- GRID -->
+<g stroke="#182028" stroke-width="1" opacity="0.6">
+<path d="M0 65H1536"/>
+<path d="M0 130H1536"/>
+<path d="M0 195H1536"/>
+<path d="M0 260H1536"/>
+<path d="M0 325H1536"/>
+<path d="M0 390H1536"/>
+<path d="M0 455H1536"/>
+<path d="M0 520H1536"/>
+<path d="M0 585H1536"/>
 
-  <!-- network -->
-  <g fill="none" stroke="#34414d" stroke-width="2" opacity="0.65">
-    <path d="M70 100L190 55L300 125L420 75"/>
-    <path d="M70 100L130 190L250 165L300 125"/>
-    <path d="M1110 90L1225 45L1335 120L1460 70"/>
-    <path d="M1110 90L1160 180L1280 155L1335 120"/>
-  </g>
+<path d="M128 0V650"/>
+<path d="M256 0V650"/>
+<path d="M384 0V650"/>
+<path d="M512 0V650"/>
+<path d="M640 0V650"/>
+<path d="M768 0V650"/>
+<path d="M896 0V650"/>
+<path d="M1024 0V650"/>
+<path d="M1152 0V650"/>
+<path d="M1280 0V650"/>
+<path d="M1408 0V650"/>
+</g>
 
-  <!-- nodes -->
-  <g fill="#52616d" opacity="0.7">
-    <circle cx="70" cy="100" r="4"/>
-    <circle cx="190" cy="55" r="4"/>
-    <circle cx="300" cy="125" r="4"/>
-    <circle cx="420" cy="75" r="4"/>
-    <circle cx="130" cy="190" r="4"/>
-    <circle cx="250" cy="165" r="4"/>
+<!-- LEFT NETWORK -->
+<g fill="none" stroke="#34414d" stroke-width="2">
+<path d="M70 120L190 70L310 140L430 90"/>
+<path d="M70 120L135 220L260 190L310 140"/>
+<path d="M135 220L200 310L330 270"/>
+</g>
 
-    <circle cx="1110" cy="90" r="4"/>
-    <circle cx="1225" cy="45" r="4"/>
-    <circle cx="1335" cy="120" r="4"/>
-    <circle cx="1460" cy="70" r="4"/>
-    <circle cx="1160" cy="180" r="4"/>
-    <circle cx="1280" cy="155" r="4"/>
-  </g>
+<!-- RIGHT NETWORK -->
+<g fill="none" stroke="#34414d" stroke-width="2">
+<path d="M1100 110L1220 55L1340 130L1470 80"/>
+<path d="M1100 110L1160 215L1290 185L1340 130"/>
+<path d="M1160 215L1230 300L1360 270"/>
+</g>
 
-  <!-- binary -->
-  <g fill="#3c4853" font-family="monospace" font-size="13" opacity="0.28">
-    <text x="35" y="470">
-      01001001 01001110 01000110 01001111 01010011 01000101
-    </text>
-    <text x="1080" y="470">
-      10110100 00101101 11001001 01010110
-    </text>
-    <text x="620" y="38">
-      01110010 01101111 01101111 01110100
-    </text>
-  </g>
+<!-- NODES -->
+<g fill="#52616d">
+<circle cx="70" cy="120" r="5"/>
+<circle cx="190" cy="70" r="5"/>
+<circle cx="310" cy="140" r="5"/>
+<circle cx="430" cy="90" r="5"/>
+<circle cx="135" cy="220" r="5"/>
+<circle cx="260" cy="190" r="5"/>
+<circle cx="200" cy="310" r="5"/>
+<circle cx="330" cy="270" r="5"/>
+
+<circle cx="1100" cy="110" r="5"/>
+<circle cx="1220" cy="55" r="5"/>
+<circle cx="1340" cy="130" r="5"/>
+<circle cx="1470" cy="80" r="5"/>
+<circle cx="1160" cy="215" r="5"/>
+<circle cx="1290" cy="185" r="5"/>
+<circle cx="1230" cy="300" r="5"/>
+<circle cx="1360" cy="270" r="5"/>
+</g>
+
+<!-- CENTER -->
+<text x="768" y="280"
+text-anchor="middle"
+fill="#ffffff"
+font-family="Arial"
+font-size="58"
+font-weight="bold">
+ Arise
+</text>
+
+<text x="768" y="330"
+text-anchor="middle"
+fill="#71808c"
+font-family="monospace"
+font-size="22">
+Ordinary Civilian
+</text>
+
+<text x="768" y="375"
+text-anchor="middle"
+fill="#52616d"
+font-family="monospace"
+font-size="16">
+&gt; learning - exploring - securing
+</text>
+
+<!-- BINARY -->
+<g fill="#3c4853"
+font-family="monospace"
+font-size="13"
+opacity="0.35">
+
+<text x="45" y="510">
+01001001 01001110 01000110 01001111
+</text>
+
+<text x="1050" y="510">
+10110100 00101101 11001001
+</text>
+
+<text x="580" y="45">
+01110010 01101111 01101101
+</text>
+
+<text x="570" y="620">
+01000011 01011001 01000010 01000101 01010010
+</text>
+
+</g>
+
+<!-- TERMINAL -->
+<text x="768" y="570"
+text-anchor="middle"
+fill="#46535e"
+font-family="monospace"
+font-size="15">
+root@aris:~$ whoami
+</text>
+
+<text x="768" y="595"
+text-anchor="middle"
+fill="#667580"
+font-family="monospace"
+font-size="15">
+aris - cybersecurity - technology
+</text>
 
 </svg>
